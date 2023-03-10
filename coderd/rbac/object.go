@@ -164,6 +164,16 @@ var (
 	ResourceSystem = Object{
 		Type: "system",
 	}
+
+	// ResourceProvisionerd controls access to creating provisioner daemons.
+	ResourceProvisionerd = Object{
+		Type: "provisionerd",
+	}
+
+	// ResourceProvisionerJob controls access to creating provisioner jobs.
+	ResourceProvisionerJob = Object{
+		Type: "provisioner_job",
+	}
 )
 
 // Object is used to create objects for authz checks when you have none in
